@@ -52,6 +52,31 @@ https://santroller.tangentgamer.com/
 
 It turns the Pico into a videogame controller.
 
+## Guide
+
+1. Draw and cut the guitar shape from a cardboard.
+![Full guitar from the top](assets/outline.png)
+
+2. Cut a hole for the strumbar the size of two kw11 microswitches and use hot glue to fix them facing outwards like wings.
+
+3. Do the same thing for the fret switches, with the COM and NO pins facing inwards and the NC pin out.
+
+4. Same for the start and select buttons.
+
+5. Solder all the COM pins of every component together in a shared ground path. Then solder individual wires to the NO pins of each component.
+
+6. Direct solder the common ground path to a GND pin of your Pi Pico.
+
+7. Solder each of the individual wires to a different GPx pin on the Raspberry.
+
+8. To avoid damaging the Raspberry with direct hot glue, place a piece of masking tape on the
+back of the board and another on the cardboard, then glue tape-to-tape.
+
+9. Configure the Santroller Firmware. Hold down the white BOOTSEL button on the Pico and plug it into your computer via USB. And configure the guitar assigning each pin to the right input and install the Firmware.
+
+## Youtube Video (Portuguese)
+https://youtu.be/ICIJG7O0fCI
+
 ## Credits
 
 Project members:
